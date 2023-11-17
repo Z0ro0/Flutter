@@ -21,6 +21,21 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //레시피 소개 부분 재사용하기 위해서 재사용 메소드 만들기
+    Padding titleSection = Padding(
+      padding: EdgeInsets.all(24),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('도시락', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),),
+          Text('맛남의 광장에서 나온 아스파라거스 요리\n'
+              '입에 감기는 맛이지만 쉬우노 요리법에\n'
+              '술안주(안돼용), 밥반찬으로 추천!!\n',
+            style: TextStyle(color: Colors.grey, fontSize: 15),),
+        ],
+      ),
+    );
+
     return Scaffold(
       appBar: AppBar(
         title: Text('Recipe Example'),
@@ -28,19 +43,7 @@ class MyHomePage extends StatelessWidget {
       body: Column(
         children: [
           Image.asset('dosirock.jpg'),
-          Padding(
-              padding: EdgeInsets.all(24),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Text('도시락', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),),
-                  Text('맛남의 광장에서 나온 아스파라거스 요리\n'
-                      '입에 감기는 맛이지만 쉬우노 요리법에\n'
-                      '술안주(안돼용), 밥반찬으로 추천!!\n',
-                  style: TextStyle(color: Colors.grey, fontSize: 15),),
-                ],
-              ),
-          ),
+          titleSection,//재사용 메서드 호출
         ],
       ),
     );
