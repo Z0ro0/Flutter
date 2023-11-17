@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/WidgetExample/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/WidgetExample/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/WidgetExample/build" />
+      <excludeFolder url="file://$MODULE_DIR$/hello_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/hello_flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/hello_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/counter_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/counter_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/counter_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/cupertino_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/cupertino_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/cupertino_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/boxdesign/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/boxdesign/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/boxdesign/build" />
+      <excludeFolder url="file://$MODULE_DIR$/appbarbutton/build" />
+      <excludeFolder url="file://$MODULE_DIR$/appbarbutton/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/appbarbutton/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dangenmarket2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/dangenmarket2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dangenmarket2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/danggenmarketlayout/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/danggenmarketlayout/build" />
+      <excludeFolder url="file://$MODULE_DIR$/danggenmarketlayout/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/customwidget/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/customwidget/build" />
+      <excludeFolder url="file://$MODULE_DIR$/customwidget/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
