@@ -1,3 +1,4 @@
+import 'package:cafe_app/screens/menu/menu_detail_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:cafe_app/models/coffee.dart';
 
@@ -11,6 +12,14 @@ class CoffeeMenuScreen extends StatelessWidget {
           coffees.length,
             (index) => Container(
                 height: 150.0,
+                  child: GestureDetector(
+                    onTap: (){
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: context)=> MenuDetailScreen(item: coffees[index])),
+                      );
+                    },
+                  ),
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Row(

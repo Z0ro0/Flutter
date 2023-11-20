@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+import 'package:carousel_slider/carousel_slider.dart';
+
+class BannerWidget extends StatelessWidget {
+  const BannerWidget({
+    super.key,
+    required this.bannerItemImgUrl,
+  });
+
+  final List<String> bannerItemImgUrl;
+
+  @override
+  Widget build(BuildContext context) {
+    return CarouselSlider.builder(
+      itemCount: bannerItemImgUrl.length,
+      options: CarouselOptions(
+        viewportFraction: 1.0,
+      ),
+      itemBuilder: (context, itemIndex, realIndex){
+        return Image.asset(
+          "${bannerItemImgUrl[itemIndex]}",
+          fit: BoxFit.cover,
+          width: MediaQuery.of(context).size.width,
+        );
+      },);
+  }
+}
