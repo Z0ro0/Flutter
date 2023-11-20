@@ -18,15 +18,27 @@ class MyHomePage extends StatelessWidget {
        length: menuItems.length,
        child: Scaffold(
          appBar: AppBar(
-           title: Text("메뉴"),
+           title: const Text("메뉴", style: TextStyle(color: Colors.black),
+           ),
+           centerTitle: true,
+           backgroundColor: Colors.white,
+           leading: Icon(
+             Icons.home,
+             color: Colors.grey,
+           ),
            //3, 탭바 생성(탭바 아래 각각의 탭 생성)
            bottom: TabBar(
-             tabs: List.generate(
+             tabs: List.generate(//menuitems 길이만큼 탭바 메뉴 생성
                  menuItems.length,
                      (index) => Tab(
                        text: menuItems[index],
                      ),
              ),
+             unselectedLabelColor: Colors.black38,//선택되지 않은 탭 진한 회색
+             labelColor: Colors.black,//기본 탭 색은 검정색
+             indicatorColor: Colors.black,//탭 밑의 선 색 검정색
+             indicatorSize: TabBarIndicatorSize.label,//탭 밑의 선 크기는 라벨 크기
+             isScrollable: true,//탭바 스크롤 가능하도록
            ),
          ),
          //4.탭바 뷰 생성
