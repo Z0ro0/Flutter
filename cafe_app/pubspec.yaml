@@ -68,6 +68,14 @@ flutter:
     - assets/images/dessert01.jpg
     - assets/images/dessert02.jpg
     - assets/images/cake03.jpg
+    - assets/images/coffee01.jpg
+    - assets/images/coffee02.jpg
+    - assets/images/coffee03.jpg
+    - assets/images/coffee04.jpg
+    - assets/images/coffee01_ice.jpg
+    - assets/images/coffee02_ice.jpg
+    - assets/images/coffee03_ice.jpg
+    - assets/images/coffee04_ice.jpg
 
 
   #   - images/a_dot_burr.jpeg

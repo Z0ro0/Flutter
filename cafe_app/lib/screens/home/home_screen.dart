@@ -3,6 +3,7 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:cafe_app/widgets/banner_widget.dart';
 import 'package:cafe_app/widgets/today_menu_widget.dart';
+import 'package:cafe_app/screens/menu/coffee_menu_screen.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -53,15 +54,13 @@ class MyHomePage extends StatelessWidget {
          //4.탭바 뷰 생성
          body: TabBarView(
            children: [
-             Column(
+             ListView(
                children: [
                  BannerWidget(bannerItemImgUrl: bannerItemImgUrl),
                  TodayMenuWidget(),
                ],
              ),
-             Center(
-               child: Text("커피&음료 화면입니다"),
-             ),
+             CoffeeMenuScreen(),
              Center(
                child: Text("빙수&아이스크림 화면입니다"),
              ),
