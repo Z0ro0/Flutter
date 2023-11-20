@@ -1,6 +1,8 @@
+import 'package:cafe_app/widgets/today_menu_widget.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:cafe_app/widgets/banner_widget.dart';
+import 'package:cafe_app/widgets/today_menu_widget.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);
@@ -53,7 +55,8 @@ class MyHomePage extends StatelessWidget {
            children: [
              Column(
                children: [
-                 BannerWidget(bannerItemImgUrl: bannerItemImgUrl)
+                 BannerWidget(bannerItemImgUrl: bannerItemImgUrl),
+                 TodayMenuWidget(),
                ],
              ),
              Center(

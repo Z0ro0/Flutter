@@ -63,6 +63,12 @@ flutter:
   assets:
     - assets/images/banner01.jpg
     - assets/images/banner02.jpg
+    - assets/images/cake01.jpg
+    - assets/images/cake02.jpg
+    - assets/images/dessert01.jpg
+    - assets/images/dessert02.jpg
+    - assets/images/cake03.jpg
+
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
